@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "target": "es2020",
+        "module": "CommonJS",
+        "rootDir": "./",
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true
+    }
+}
